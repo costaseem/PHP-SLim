@@ -19,7 +19,7 @@ The system is using composer as main delivery system, using composer.json:
         "phpmailer/phpmailer": "~5.2",
         "alexgarrett/violin": "2.*",
         "illuminate/database": "~5.0",
-        "hassakhan/config": "0.8.*",
+        "hassankhan/config": "0.8.*",
         "ircmaxell/random-lib": "~1.1"
     }
 }
