@@ -12,17 +12,23 @@ The system is using composer as main delivery system, using composer.json:
 
 ```json
 {
-    "require": {
-        "slim/slim": "~2.6",
-        "slim/views": "0.1.*",
-        "twig/twig": "~1.0",
-        "phpmailer/phpmailer": "~5.2",
-        "alexgarrett/violin": "2.*",
-        "illuminate/database": "~5.0",
-        "hassankhan/config": "0.8.*",
-        "ircmaxell/random-lib": "~1.1"
-    }
+  "autoload": {
+      "psr-4": {
+      	  "Uzu\\": "app/uzu" 
+      }
+  },
+  "require": {
+      "slim/slim": "~2.6",
+      "slim/views": "0.1.*",
+      "twig/twig": "~1.0",
+      "phpmailer/phpmailer": "~5.2",
+      "alexgarrett/violin": "2.*",
+      "illuminate/database": "~5.0",
+      "hassankhan/config": "0.8.*",
+      "ircmaxell/random-lib": "~1.1"
+  }
 }
+
 ```
 
 
